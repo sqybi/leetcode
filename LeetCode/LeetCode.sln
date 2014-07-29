@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary-tree-preorder-traver
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reorder-list", "reorder-list\reorder-list.vcxproj", "{EFFCB85B-004B-451B-AEB0-2B1C6157C652}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linked-list-cycle", "linked-list-cycle\linked-list-cycle.vcxproj", "{8EB967B4-2A30-4A4A-AA78-2E2A91533001}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -63,6 +65,10 @@ Global
 		{EFFCB85B-004B-451B-AEB0-2B1C6157C652}.Debug|Win32.Build.0 = Debug|Win32
 		{EFFCB85B-004B-451B-AEB0-2B1C6157C652}.Release|Win32.ActiveCfg = Release|Win32
 		{EFFCB85B-004B-451B-AEB0-2B1C6157C652}.Release|Win32.Build.0 = Release|Win32
+		{8EB967B4-2A30-4A4A-AA78-2E2A91533001}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8EB967B4-2A30-4A4A-AA78-2E2A91533001}.Debug|Win32.Build.0 = Debug|Win32
+		{8EB967B4-2A30-4A4A-AA78-2E2A91533001}.Release|Win32.ActiveCfg = Release|Win32
+		{8EB967B4-2A30-4A4A-AA78-2E2A91533001}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
