@@ -13,7 +13,7 @@ struct TreeNode {
 
 class Solution {
 public:
-	vector<int> postorderTraversal(TreeNode *root) {
+	vector<int> preorderTraversal(TreeNode *root) {
 		vector<int> result;
 		if (root == NULL)
 		{
@@ -29,13 +29,21 @@ public:
 				current.second++;
 				treeStack.pop();
 				treeStack.push(current);
+				// add self
+				result.push_back(current.first->val);
+			}
+			else if (current.second == 1)
+			{
+				current.second++;
+				treeStack.pop();
+				treeStack.push(current);
 				// deal with left
 				if (current.first->left != NULL)
 				{
 					treeStack.push(make_pair(current.first->left, 0));
 				}
 			}
-			else if (current.second == 1)
+			else if (current.second == 2)
 			{
 				current.second++;
 				treeStack.pop();
@@ -48,8 +56,6 @@ public:
 			}
 			else
 			{
-				// add self
-				result.push_back(current.first->val);
 				treeStack.pop();
 			}
 		}
@@ -63,7 +69,7 @@ int main()
 	TreeNode *root = new TreeNode(1);
 	root->right = new TreeNode(2);
 	root->right->left = new TreeNode(3);
-	auto result = solution.postorderTraversal(root);
+	auto result = solution.preorderTraversal(root);
 	for (int i = 0; i < result.size(); i++)
 	{
 		cout << result[i] << endl;
