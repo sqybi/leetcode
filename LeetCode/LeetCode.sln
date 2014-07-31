@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linked-list-cycle-ii", "lin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "word-break", "word-break\word-break.vcxproj", "{DD794EA8-FE5F-4865-AF50-185E316FEA7D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "word-break-ii", "word-break-ii\word-break-ii.vcxproj", "{0095FF8D-BE72-441F-BBDD-C38ED3AB0608}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -81,6 +83,10 @@ Global
 		{DD794EA8-FE5F-4865-AF50-185E316FEA7D}.Debug|Win32.Build.0 = Debug|Win32
 		{DD794EA8-FE5F-4865-AF50-185E316FEA7D}.Release|Win32.ActiveCfg = Release|Win32
 		{DD794EA8-FE5F-4865-AF50-185E316FEA7D}.Release|Win32.Build.0 = Release|Win32
+		{0095FF8D-BE72-441F-BBDD-C38ED3AB0608}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0095FF8D-BE72-441F-BBDD-C38ED3AB0608}.Debug|Win32.Build.0 = Debug|Win32
+		{0095FF8D-BE72-441F-BBDD-C38ED3AB0608}.Release|Win32.ActiveCfg = Release|Win32
+		{0095FF8D-BE72-441F-BBDD-C38ED3AB0608}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

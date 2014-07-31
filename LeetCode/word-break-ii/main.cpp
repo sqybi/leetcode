@@ -7,19 +7,23 @@ using namespace std;
 
 class Solution {
 public:
-	bool wordBreak(string s, unordered_set<string> &dict) {
+	vector<string> wordBreak(string s, unordered_set<string> &dict) {
 		length = s.length();
 		memset(f, 0, sizeof(f));
-		memset(d, 0, sizeof(d));
-		return dp(0, s, dict);
+		auto result = dp(0, s, dict);
+		for (auto iterator = result.begin(); iterator != result.end(); iterator++)
+		{
+			(*iterator) = iterator->substr(0, iterator->length() - 1);
+		}
+		return result;
 	}
 
 private:
-	bool d[1000];
+	vector<string> d[1000];
 	bool f[1000];
 	int length;
 
-	bool dp(int k, string s, unordered_set<string> &dict)
+	vector<string> dp(int k, string s, unordered_set<string> &dict)
 	{
 		if (f[k])
 		{
@@ -30,7 +34,7 @@ private:
 
 		if (k == length)
 		{
-			d[k] = true;
+			d[k].push_back("");
 			return d[k];
 		}
 
@@ -40,10 +44,9 @@ private:
 			if (s.substr(k, word.length()) == word)
 			{
 				auto result = dp(k + word.length(), s, dict);
-				if (result)
+				for (auto resultIterator = result.begin(); resultIterator != result.end(); resultIterator++)
 				{
-					d[k] = true;
-					break;
+					d[k].push_back(word + " " + (*resultIterator));
 				}
 			}
 		}
@@ -67,7 +70,13 @@ int main()
 	dict.insert("aaaaaaaaa");
 	dict.insert("aaaaaaaaaa");
 
-	cout << (int)solution.wordBreak(s, dict);
+	auto result = solution.wordBreak(s, dict);
+	for (int i = 0; i < result.size(); i++)
+	{
+		cout << result[i] << endl;
+	}
+
+	//cout << (int)solution.wordBreak(s, dict);
 
 	getchar();
 
