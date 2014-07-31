@@ -25,3 +25,8 @@ public:
 		return slow == fast;
 	}
 };
+
+int main()
+{
+	return 0;
+}
