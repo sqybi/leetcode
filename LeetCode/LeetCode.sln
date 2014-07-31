@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "candy", "candy\candy.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gas-station", "gas-station\gas-station.vcxproj", "{7C14A385-5D13-442E-BDE2-1157B9448F3E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clone-graph", "clone-graph\clone-graph.vcxproj", "{CB72D732-0085-45D1-B266-F7EF9AE8C8F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -117,6 +119,10 @@ Global
 		{7C14A385-5D13-442E-BDE2-1157B9448F3E}.Debug|Win32.Build.0 = Debug|Win32
 		{7C14A385-5D13-442E-BDE2-1157B9448F3E}.Release|Win32.ActiveCfg = Release|Win32
 		{7C14A385-5D13-442E-BDE2-1157B9448F3E}.Release|Win32.Build.0 = Release|Win32
+		{CB72D732-0085-45D1-B266-F7EF9AE8C8F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB72D732-0085-45D1-B266-F7EF9AE8C8F5}.Debug|Win32.Build.0 = Debug|Win32
+		{CB72D732-0085-45D1-B266-F7EF9AE8C8F5}.Release|Win32.ActiveCfg = Release|Win32
+		{CB72D732-0085-45D1-B266-F7EF9AE8C8F5}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
