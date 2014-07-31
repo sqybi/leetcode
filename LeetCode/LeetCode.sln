@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "word-break-ii", "word-break
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "copy-list-with-random-pointer", "copy-list-with-random-pointer\copy-list-with-random-pointer.vcxproj", "{08971212-57CA-442C-B952-81A81A30B641}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "single-number", "single-number\single-number.vcxproj", "{2140F644-C2A6-446B-B5C5-31368CDDB8F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -93,6 +95,10 @@ Global
 		{08971212-57CA-442C-B952-81A81A30B641}.Debug|Win32.Build.0 = Debug|Win32
 		{08971212-57CA-442C-B952-81A81A30B641}.Release|Win32.ActiveCfg = Release|Win32
 		{08971212-57CA-442C-B952-81A81A30B641}.Release|Win32.Build.0 = Release|Win32
+		{2140F644-C2A6-446B-B5C5-31368CDDB8F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2140F644-C2A6-446B-B5C5-31368CDDB8F2}.Debug|Win32.Build.0 = Debug|Win32
+		{2140F644-C2A6-446B-B5C5-31368CDDB8F2}.Release|Win32.ActiveCfg = Release|Win32
+		{2140F644-C2A6-446B-B5C5-31368CDDB8F2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
