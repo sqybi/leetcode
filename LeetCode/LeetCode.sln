@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pascals-triangle", "pascals
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pascals-triangle-ii", "pascals-triangle-ii\pascals-triangle-ii.vcxproj", "{37FB11CF-C122-43FE-A1D7-9C8713070FFA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "populating-next-right-pointers-in-each-node", "populating-next-right-pointers-in-each-node\populating-next-right-pointers-in-each-node.vcxproj", "{462A5F9A-DD6F-4BA2-AF62-EBB7FEC3F1FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -213,6 +215,10 @@ Global
 		{37FB11CF-C122-43FE-A1D7-9C8713070FFA}.Debug|Win32.Build.0 = Debug|Win32
 		{37FB11CF-C122-43FE-A1D7-9C8713070FFA}.Release|Win32.ActiveCfg = Release|Win32
 		{37FB11CF-C122-43FE-A1D7-9C8713070FFA}.Release|Win32.Build.0 = Release|Win32
+		{462A5F9A-DD6F-4BA2-AF62-EBB7FEC3F1FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{462A5F9A-DD6F-4BA2-AF62-EBB7FEC3F1FD}.Debug|Win32.Build.0 = Debug|Win32
+		{462A5F9A-DD6F-4BA2-AF62-EBB7FEC3F1FD}.Release|Win32.ActiveCfg = Release|Win32
+		{462A5F9A-DD6F-4BA2-AF62-EBB7FEC3F1FD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
