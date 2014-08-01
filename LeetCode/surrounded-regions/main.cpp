@@ -1,5 +1,5 @@
 #include <vector>
-#include <stack>
+#include <queue>
 
 using namespace std;
 
@@ -46,7 +46,7 @@ public:
 
 private:
     int n, m;
-    int p[4][2] = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
+    static const int p[4][2];
     const char xChar = 'X', oChar = 'O';
 
     void fill(int x, int y, vector<vector<char>> &originalBoard, vector<vector<char>> &board)
@@ -77,6 +77,7 @@ private:
         return x >= 0 && x < n && y >= 0 && y < m;
     }
 };
+const int Solution::p[4][2] = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 
 int main()
 {
