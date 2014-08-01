@@ -103,14 +103,5 @@ private:
 
 int main()
 {
-    Solution solution;
-    unordered_set<string> a;
-    a.insert("hot");
-    a.insert("dot");
-    a.insert("dog");
-    a.insert("lot");
-    a.insert("log");
-    auto result = solution.ladderLength("hit", "cog", a);
-    getchar();
     return 0;
 }
