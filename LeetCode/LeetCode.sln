@@ -81,6 +81,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flatten-binary-tree-to-link
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "path-sum", "path-sum\path-sum.vcxproj", "{42AC8D95-7F17-4365-A440-74417CC90A2C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "path-sum-ii", "path-sum-ii\path-sum-ii.vcxproj", "{AF8AA7A2-53BB-41F1-AE10-8790D795488B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -481,6 +483,16 @@ Global
 		{42AC8D95-7F17-4365-A440-74417CC90A2C}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{42AC8D95-7F17-4365-A440-74417CC90A2C}.Release|Win32.ActiveCfg = Release|Win32
 		{42AC8D95-7F17-4365-A440-74417CC90A2C}.Release|Win32.Build.0 = Release|Win32
+		{AF8AA7A2-53BB-41F1-AE10-8790D795488B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{AF8AA7A2-53BB-41F1-AE10-8790D795488B}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{AF8AA7A2-53BB-41F1-AE10-8790D795488B}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{AF8AA7A2-53BB-41F1-AE10-8790D795488B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF8AA7A2-53BB-41F1-AE10-8790D795488B}.Debug|Win32.Build.0 = Debug|Win32
+		{AF8AA7A2-53BB-41F1-AE10-8790D795488B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{AF8AA7A2-53BB-41F1-AE10-8790D795488B}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{AF8AA7A2-53BB-41F1-AE10-8790D795488B}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{AF8AA7A2-53BB-41F1-AE10-8790D795488B}.Release|Win32.ActiveCfg = Release|Win32
+		{AF8AA7A2-53BB-41F1-AE10-8790D795488B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
