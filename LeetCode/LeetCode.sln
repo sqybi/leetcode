@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary-tree-maximum-path-su
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "best-time-to-buy-and-sell-stock", "best-time-to-buy-and-sell-stock\best-time-to-buy-and-sell-stock.vcxproj", "{79C11BFE-AEA7-4147-B6D9-E1C0C243C1E3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "best-time-to-buy-and-sell-stock-ii", "best-time-to-buy-and-sell-stock-ii\best-time-to-buy-and-sell-stock-ii.vcxproj", "{2216A046-CCA4-43A9-A839-B92009779B13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -183,6 +185,10 @@ Global
 		{79C11BFE-AEA7-4147-B6D9-E1C0C243C1E3}.Debug|Win32.Build.0 = Debug|Win32
 		{79C11BFE-AEA7-4147-B6D9-E1C0C243C1E3}.Release|Win32.ActiveCfg = Release|Win32
 		{79C11BFE-AEA7-4147-B6D9-E1C0C243C1E3}.Release|Win32.Build.0 = Release|Win32
+		{2216A046-CCA4-43A9-A839-B92009779B13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2216A046-CCA4-43A9-A839-B92009779B13}.Debug|Win32.Build.0 = Debug|Win32
+		{2216A046-CCA4-43A9-A839-B92009779B13}.Release|Win32.ActiveCfg = Release|Win32
+		{2216A046-CCA4-43A9-A839-B92009779B13}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
