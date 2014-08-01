@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "word-ladder", "word-ladder\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "word-ladder-ii", "word-ladder-ii\word-ladder-ii.vcxproj", "{70AE2716-4CA3-44E0-B86F-FDC38A46DB10}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "valid-palindrome", "valid-palindrome\valid-palindrome.vcxproj", "{5C16FA76-D2FE-4656-89E8-31C61904C04D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -165,6 +167,10 @@ Global
 		{70AE2716-4CA3-44E0-B86F-FDC38A46DB10}.Debug|Win32.Build.0 = Debug|Win32
 		{70AE2716-4CA3-44E0-B86F-FDC38A46DB10}.Release|Win32.ActiveCfg = Release|Win32
 		{70AE2716-4CA3-44E0-B86F-FDC38A46DB10}.Release|Win32.Build.0 = Release|Win32
+		{5C16FA76-D2FE-4656-89E8-31C61904C04D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C16FA76-D2FE-4656-89E8-31C61904C04D}.Debug|Win32.Build.0 = Debug|Win32
+		{5C16FA76-D2FE-4656-89E8-31C61904C04D}.Release|Win32.ActiveCfg = Release|Win32
+		{5C16FA76-D2FE-4656-89E8-31C61904C04D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
