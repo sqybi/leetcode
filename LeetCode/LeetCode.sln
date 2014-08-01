@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "palindrome-partitioning", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "surrounded-regions", "surrounded-regions\surrounded-regions.vcxproj", "{9E467A79-91F8-4271-8E32-632F781CDE47}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sum-root-to-leaf-numbers", "sum-root-to-leaf-numbers\sum-root-to-leaf-numbers.vcxproj", "{1481F686-2EEA-465B-B9CF-601F66F54D3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -141,6 +143,10 @@ Global
 		{9E467A79-91F8-4271-8E32-632F781CDE47}.Debug|Win32.Build.0 = Debug|Win32
 		{9E467A79-91F8-4271-8E32-632F781CDE47}.Release|Win32.ActiveCfg = Release|Win32
 		{9E467A79-91F8-4271-8E32-632F781CDE47}.Release|Win32.Build.0 = Release|Win32
+		{1481F686-2EEA-465B-B9CF-601F66F54D3B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1481F686-2EEA-465B-B9CF-601F66F54D3B}.Debug|Win32.Build.0 = Debug|Win32
+		{1481F686-2EEA-465B-B9CF-601F66F54D3B}.Release|Win32.ActiveCfg = Release|Win32
+		{1481F686-2EEA-465B-B9CF-601F66F54D3B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
