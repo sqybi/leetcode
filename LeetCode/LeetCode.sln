@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "word-ladder-ii", "word-ladd
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "valid-palindrome", "valid-palindrome\valid-palindrome.vcxproj", "{5C16FA76-D2FE-4656-89E8-31C61904C04D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary-tree-maximum-path-sum", "binary-tree-maximum-path-sum\binary-tree-maximum-path-sum.vcxproj", "{1AD4B521-4F25-4476-A8A0-FBD4C94850DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -171,6 +173,10 @@ Global
 		{5C16FA76-D2FE-4656-89E8-31C61904C04D}.Debug|Win32.Build.0 = Debug|Win32
 		{5C16FA76-D2FE-4656-89E8-31C61904C04D}.Release|Win32.ActiveCfg = Release|Win32
 		{5C16FA76-D2FE-4656-89E8-31C61904C04D}.Release|Win32.Build.0 = Release|Win32
+		{1AD4B521-4F25-4476-A8A0-FBD4C94850DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AD4B521-4F25-4476-A8A0-FBD4C94850DF}.Debug|Win32.Build.0 = Debug|Win32
+		{1AD4B521-4F25-4476-A8A0-FBD4C94850DF}.Release|Win32.ActiveCfg = Release|Win32
+		{1AD4B521-4F25-4476-A8A0-FBD4C94850DF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
