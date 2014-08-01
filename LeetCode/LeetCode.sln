@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "triangle", "triangle\triang
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pascals-triangle", "pascals-triangle\pascals-triangle.vcxproj", "{A4C977D8-1704-45B4-8106-2C0897D14D32}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pascals-triangle-ii", "pascals-triangle-ii\pascals-triangle-ii.vcxproj", "{37FB11CF-C122-43FE-A1D7-9C8713070FFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -207,6 +209,10 @@ Global
 		{A4C977D8-1704-45B4-8106-2C0897D14D32}.Debug|Win32.Build.0 = Debug|Win32
 		{A4C977D8-1704-45B4-8106-2C0897D14D32}.Release|Win32.ActiveCfg = Release|Win32
 		{A4C977D8-1704-45B4-8106-2C0897D14D32}.Release|Win32.Build.0 = Release|Win32
+		{37FB11CF-C122-43FE-A1D7-9C8713070FFA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37FB11CF-C122-43FE-A1D7-9C8713070FFA}.Debug|Win32.Build.0 = Debug|Win32
+		{37FB11CF-C122-43FE-A1D7-9C8713070FFA}.Release|Win32.ActiveCfg = Release|Win32
+		{37FB11CF-C122-43FE-A1D7-9C8713070FFA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
