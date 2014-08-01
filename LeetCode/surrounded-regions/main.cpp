@@ -51,21 +51,21 @@ private:
 
     void fill(int x, int y, vector<vector<char>> &originalBoard, vector<vector<char>> &board)
     {
-        stack<pair<int, int>> st;
-        st.push(make_pair(x, y));
+        queue<pair<int, int>> q;
+        q.push(make_pair(x, y));
         board[x][y] = oChar;
-        while (!st.empty())
+        while (!q.empty())
         {
-            x = st.top().first;
-            y = st.top().second;
-            st.pop();
+            x = q.front().first;
+            y = q.front().second;
+            q.pop();
             for (int i = 0; i < 4; i++)
             {
                 int xx = x + p[i][0];
                 int yy = y + p[i][1];
                 if (isValid(xx, yy) && originalBoard[xx][yy] == oChar && board[xx][yy] == xChar)
                 {
-                    st.push(make_pair(xx, yy));
+                    q.push(make_pair(xx, yy));
                     board[xx][yy] = oChar;
                 }
             }
