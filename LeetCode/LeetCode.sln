@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "populating-next-right-point
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "populating-next-right-pointers-in-each-node-ii", "populating-next-right-pointers-in-each-node-ii\populating-next-right-pointers-in-each-node-ii.vcxproj", "{EC782439-49DC-49D9-8667-5DDAD37A6154}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "distinct-subsequences", "distinct-subsequences\distinct-subsequences.vcxproj", "{A6D58E1A-CFD2-4131-8910-B237527C06F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -225,6 +227,10 @@ Global
 		{EC782439-49DC-49D9-8667-5DDAD37A6154}.Debug|Win32.Build.0 = Debug|Win32
 		{EC782439-49DC-49D9-8667-5DDAD37A6154}.Release|Win32.ActiveCfg = Release|Win32
 		{EC782439-49DC-49D9-8667-5DDAD37A6154}.Release|Win32.Build.0 = Release|Win32
+		{A6D58E1A-CFD2-4131-8910-B237527C06F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6D58E1A-CFD2-4131-8910-B237527C06F5}.Debug|Win32.Build.0 = Debug|Win32
+		{A6D58E1A-CFD2-4131-8910-B237527C06F5}.Release|Win32.ActiveCfg = Release|Win32
+		{A6D58E1A-CFD2-4131-8910-B237527C06F5}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
