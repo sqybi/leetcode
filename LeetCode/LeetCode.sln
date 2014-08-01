@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "valid-palindrome", "valid-p
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary-tree-maximum-path-sum", "binary-tree-maximum-path-sum\binary-tree-maximum-path-sum.vcxproj", "{1AD4B521-4F25-4476-A8A0-FBD4C94850DF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "best-time-to-buy-and-sell-stock", "best-time-to-buy-and-sell-stock\best-time-to-buy-and-sell-stock.vcxproj", "{79C11BFE-AEA7-4147-B6D9-E1C0C243C1E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -177,6 +179,10 @@ Global
 		{1AD4B521-4F25-4476-A8A0-FBD4C94850DF}.Debug|Win32.Build.0 = Debug|Win32
 		{1AD4B521-4F25-4476-A8A0-FBD4C94850DF}.Release|Win32.ActiveCfg = Release|Win32
 		{1AD4B521-4F25-4476-A8A0-FBD4C94850DF}.Release|Win32.Build.0 = Release|Win32
+		{79C11BFE-AEA7-4147-B6D9-E1C0C243C1E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79C11BFE-AEA7-4147-B6D9-E1C0C243C1E3}.Debug|Win32.Build.0 = Debug|Win32
+		{79C11BFE-AEA7-4147-B6D9-E1C0C243C1E3}.Release|Win32.ActiveCfg = Release|Win32
+		{79C11BFE-AEA7-4147-B6D9-E1C0C243C1E3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
