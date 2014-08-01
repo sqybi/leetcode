@@ -8,6 +8,9 @@
 using namespace std;
 
 // This problem is simple, but it needs a lot of optimization on constant complexity
+// Two points:
+//   1. Each time visiting the queue, for characters from a to z and positions, instead of all words
+//   2. use unordered_map instead of map
 // Another ``Keng''!!!
 class Solution {
 public:
