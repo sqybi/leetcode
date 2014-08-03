@@ -105,6 +105,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary-tree-zigzag-level-or
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "symmetric-tree", "symmetric-tree\symmetric-tree.vcxproj", "{E4740F71-9C66-44B7-A212-90BC4A632349}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "same-tree", "same-tree\same-tree.vcxproj", "{91E70501-7621-4037-9B9A-D70028AE9FFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -625,6 +627,16 @@ Global
 		{E4740F71-9C66-44B7-A212-90BC4A632349}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{E4740F71-9C66-44B7-A212-90BC4A632349}.Release|Win32.ActiveCfg = Release|Win32
 		{E4740F71-9C66-44B7-A212-90BC4A632349}.Release|Win32.Build.0 = Release|Win32
+		{91E70501-7621-4037-9B9A-D70028AE9FFD}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{91E70501-7621-4037-9B9A-D70028AE9FFD}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{91E70501-7621-4037-9B9A-D70028AE9FFD}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{91E70501-7621-4037-9B9A-D70028AE9FFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91E70501-7621-4037-9B9A-D70028AE9FFD}.Debug|Win32.Build.0 = Debug|Win32
+		{91E70501-7621-4037-9B9A-D70028AE9FFD}.Release|Any CPU.ActiveCfg = Release|Win32
+		{91E70501-7621-4037-9B9A-D70028AE9FFD}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{91E70501-7621-4037-9B9A-D70028AE9FFD}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{91E70501-7621-4037-9B9A-D70028AE9FFD}.Release|Win32.ActiveCfg = Release|Win32
+		{91E70501-7621-4037-9B9A-D70028AE9FFD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
