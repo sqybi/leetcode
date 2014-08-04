@@ -111,6 +111,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "recover-binary-search-tree"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "validate-binary-search-tree", "validate-binary-search-tree\validate-binary-search-tree.vcxproj", "{196A40FB-186F-44C1-AE19-373A7668A650}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interleaving-string", "interleaving-string\interleaving-string.vcxproj", "{7E606EE9-B43F-4563-91D9-7484EBC58762}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -661,6 +663,16 @@ Global
 		{196A40FB-186F-44C1-AE19-373A7668A650}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{196A40FB-186F-44C1-AE19-373A7668A650}.Release|Win32.ActiveCfg = Release|Win32
 		{196A40FB-186F-44C1-AE19-373A7668A650}.Release|Win32.Build.0 = Release|Win32
+		{7E606EE9-B43F-4563-91D9-7484EBC58762}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{7E606EE9-B43F-4563-91D9-7484EBC58762}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{7E606EE9-B43F-4563-91D9-7484EBC58762}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{7E606EE9-B43F-4563-91D9-7484EBC58762}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E606EE9-B43F-4563-91D9-7484EBC58762}.Debug|Win32.Build.0 = Debug|Win32
+		{7E606EE9-B43F-4563-91D9-7484EBC58762}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7E606EE9-B43F-4563-91D9-7484EBC58762}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{7E606EE9-B43F-4563-91D9-7484EBC58762}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{7E606EE9-B43F-4563-91D9-7484EBC58762}.Release|Win32.ActiveCfg = Release|Win32
+		{7E606EE9-B43F-4563-91D9-7484EBC58762}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
