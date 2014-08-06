@@ -38,3 +38,8 @@ public:
         return head->next;
     }
 };
+
+int main()
+{
+    return 0;
+}
