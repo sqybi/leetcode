@@ -121,6 +121,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary-tree-inorder-travers
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "restore-ip-addresses", "restore-ip-addresses\restore-ip-addresses.vcxproj", "{C2130C45-F974-4103-A7B5-635EE9479685}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverse-linked-list-ii", "reverse-linked-list-ii\reverse-linked-list-ii.vcxproj", "{DFD2045C-DA14-4695-80FD-C676892D4B0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -721,6 +723,16 @@ Global
 		{C2130C45-F974-4103-A7B5-635EE9479685}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{C2130C45-F974-4103-A7B5-635EE9479685}.Release|Win32.ActiveCfg = Release|Win32
 		{C2130C45-F974-4103-A7B5-635EE9479685}.Release|Win32.Build.0 = Release|Win32
+		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Debug|Win32.Build.0 = Debug|Win32
+		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Release|Win32.ActiveCfg = Release|Win32
+		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
