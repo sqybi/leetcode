@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "merge-sorted-array", "merge
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scramble-string", "scramble-string\scramble-string.vcxproj", "{51CB164B-A30E-49B9-B0EE-666A686CF131}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "partition-list", "partition-list\partition-list.vcxproj", "{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -805,6 +807,16 @@ Global
 		{51CB164B-A30E-49B9-B0EE-666A686CF131}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{51CB164B-A30E-49B9-B0EE-666A686CF131}.Release|Win32.ActiveCfg = Release|Win32
 		{51CB164B-A30E-49B9-B0EE-666A686CF131}.Release|Win32.Build.0 = Release|Win32
+		{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}.Debug|Win32.Build.0 = Debug|Win32
+		{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}.Release|Any CPU.ActiveCfg = Release|Win32
+		{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}.Release|Win32.ActiveCfg = Release|Win32
+		{98E3370B-E5BA-4EBA-A6C0-1296376FF8F8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
