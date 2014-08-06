@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "restore-ip-addresses", "res
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverse-linked-list-ii", "reverse-linked-list-ii\reverse-linked-list-ii.vcxproj", "{DFD2045C-DA14-4695-80FD-C676892D4B0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "subsets", "subsets\subsets.vcxproj", "{69B850EC-5821-4530-8795-1F25B7621674}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -733,6 +735,16 @@ Global
 		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Release|Win32.ActiveCfg = Release|Win32
 		{DFD2045C-DA14-4695-80FD-C676892D4B0D}.Release|Win32.Build.0 = Release|Win32
+		{69B850EC-5821-4530-8795-1F25B7621674}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{69B850EC-5821-4530-8795-1F25B7621674}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{69B850EC-5821-4530-8795-1F25B7621674}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{69B850EC-5821-4530-8795-1F25B7621674}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69B850EC-5821-4530-8795-1F25B7621674}.Debug|Win32.Build.0 = Debug|Win32
+		{69B850EC-5821-4530-8795-1F25B7621674}.Release|Any CPU.ActiveCfg = Release|Win32
+		{69B850EC-5821-4530-8795-1F25B7621674}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{69B850EC-5821-4530-8795-1F25B7621674}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{69B850EC-5821-4530-8795-1F25B7621674}.Release|Win32.ActiveCfg = Release|Win32
+		{69B850EC-5821-4530-8795-1F25B7621674}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
