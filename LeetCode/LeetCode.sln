@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverse-words-in-a-string", "reverse-words-in-a-string\reverse-words-in-a-string.vcxproj", "{4C233325-D420-4DE3-BA1D-69EFBECCD775}"
 EndProject
@@ -144,6 +144,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "remove-duplicates-from-sorted-list", "remove-duplicates-from-sorted-list\remove-duplicates-from-sorted-list.vcxproj", "{F588B792-B3B8-4529-9477-9CF392F93905}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "remove-duplicates-from-sorted-list-ii", "remove-duplicates-from-sorted-list-ii\remove-duplicates-from-sorted-list-ii.vcxproj", "{2F2C889B-1CCA-419E-B9EB-C2635E409013}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "two-sum", "two-sum\two-sum.vcxproj", "{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -865,6 +867,16 @@ Global
 		{2F2C889B-1CCA-419E-B9EB-C2635E409013}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{2F2C889B-1CCA-419E-B9EB-C2635E409013}.Release|Win32.ActiveCfg = Release|Win32
 		{2F2C889B-1CCA-419E-B9EB-C2635E409013}.Release|Win32.Build.0 = Release|Win32
+		{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}.Debug|Win32.Build.0 = Debug|Win32
+		{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}.Release|Any CPU.ActiveCfg = Release|Win32
+		{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}.Release|Win32.ActiveCfg = Release|Win32
+		{75C7B41C-EA0A-4997-8D50-CD8A0B3BE4C6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
