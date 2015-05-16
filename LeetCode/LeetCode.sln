@@ -151,6 +151,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "add-two-numbers", "add-two-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "longest-substring-without-repeating-characters", "longest-substring-without-repeating-characters\longest-substring-without-repeating-characters.vcxproj", "{1036CF0B-9066-422B-8946-AA2858E942E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "median-of-two-sorted-arrays", "median-of-two-sorted-arrays\median-of-two-sorted-arrays.vcxproj", "{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -901,6 +903,16 @@ Global
 		{1036CF0B-9066-422B-8946-AA2858E942E5}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{1036CF0B-9066-422B-8946-AA2858E942E5}.Release|Win32.ActiveCfg = Release|Win32
 		{1036CF0B-9066-422B-8946-AA2858E942E5}.Release|Win32.Build.0 = Release|Win32
+		{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}.Debug|Win32.Build.0 = Debug|Win32
+		{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}.Release|Win32.ActiveCfg = Release|Win32
+		{B0B4A457-5E7D-41E9-8C1F-0AC5CB0559AE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
